@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+body {
+    font-family: 'TikTok Sans',Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.Group1-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.Group1-flex img {
+    border-radius: 10%; 
+    object-fit: cover;
+}
+
+.info-box {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px 30px;
+    border: 2px solid #aaa;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    text-align: left;
+}
+
+.two-column {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.column {
+    flex: 1 1 0;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 20px;
+    text-align: center;
+    min-width: 220px;
+}
+
+.activity-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0; /* ไม่มีช่องว่างระหว่างรูป */
+    justify-content: center;
+    margin: 20px 0;
+    width: 360px; /* กำหนดความกว้างเท่ากับ 2 รูป */
+}
+
+.activity-grid img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 0; /* ไม่มีมุมมน */
+    box-shadow: none; /* ไม่มีเงา */
+    display: block;
+}
+
+.activity-project-row {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 32px 0;
+}
+.section-box {
+    flex: 1 1 0;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 24px 32px;
+    margin: 16px;
+    text-align: center; /* เพิ่มบรรทัดนี้ */
+}
+
+.detail-btn {
+    display: inline-block;
+    background-color: #1976d2;
+    color: #fff !important;
+    padding: 10px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 12px 0;
+    transition: background 0.2s;
+    border: none;
+    cursor: pointer;
+}
+.detail-btn:hover {
+    background-color: #1253a4;
+}
+
+.main-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 24px 0 12px 0;
+}
+
+.Last {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 24px 0 12px 0;
+    text-align: center;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 32px 0 0 0;
+}
+
+.fb-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: box-shadow 0.2s;
+}
+.fb-icon:hover {
+    box-shadow: 0 4px 16px rgba(25,118,210,0.2);
+}
+
+h1 {
+    margin-left: 32px;
+}
+
+.main-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 24px 0 12px 0;
+    margin-left: 32px;
+}
